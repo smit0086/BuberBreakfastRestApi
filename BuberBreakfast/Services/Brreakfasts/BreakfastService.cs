@@ -1,5 +1,6 @@
 using BuberBreakfast.Models;
 using BuberBreakfast.ServiceErrros;
+using BuberBreakfast.Services.Breakfasts;
 using ErrorOr;
 
 namespace BuberBreakfast.Services.Breakfasts;
@@ -24,9 +25,10 @@ public class BreakfastService : IBreakfastService{
        return Errors.Breakfast.NotFound;
     }
 
-    public ErrorOr<Updated> UpsertBreakfast(Breakfast breakfast)
+    public ErrorOr<UpsertedBreakfast> UpsertBreakfast(Breakfast breakfast)
     {
+        var IsNewlyCreated = !_breakfasts.ContainsKey(breakfast.Id);
         _breakfasts[breakfast.Id] = breakfast;
-        return Result.Updated;
+        return new UpsertedBreakfast(IsNewlyCreated);
     }
 }
