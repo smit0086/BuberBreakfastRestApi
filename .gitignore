@@ -1,0 +1,97 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono Auto Generated)
+mono_crash.*
+
+# User-specific files (VS Code)
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.vscode/*.code-workspace
+
+# User-specific files (Rider)
+.idea/
+
+# Auto-generated files
+Generated\ Files/
+Generated_Code/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot or dist
+#wwwroot/
+#dist/
+
+# Visual Studio 2019
+.vs/
+.vs/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+[Dd]ebugLog.*
+*.ndoc
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build results of an ATL project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# C++/CLI
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# C++ auto-generated data files
+*.idt
+*.ipch
+*.pch
+
+# Directories for node.js, PowerShell modules, and Python projects
+node_modules/
+bower_components/
+jspm_packages/
+venv/
+__pycache__/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+$RECYCLE.BIN/
+
+# Recycle Bin used on file shares
+*.~lock.*#
+~$*
+
+# End of the list
